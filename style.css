@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Money";
+    src: url("Money money money.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Money Plus";
+    src: url("Money Money Plus.woff") format("truetype");
+}
+body {
+    background-image: linear-gradient(to left, #f3f2ee,  #ececec);
+    
+}
+
+h1 { 
+font-family: "Arial";
+text-align: center;
+font-size: 5em;
+font-weight: 100;
+text-shadow: 1px 1px 1px rgb(12, 10, 10);
+margin-bottom: 0px;
+
+}
+
+
+table {
+
+background-color: #f1f1f0;
+border-collapse: collapse;
+width: 375px;
+height: 375px;
+margin: 5px;
+border: 2px solid rgb(10, 10, 10);
+font-size: 30px;
+color: #ffdb00;
+border-radius: 10px;
+box-shadow: 3px 3px 3px rgb(14, 13, 13);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+thead{
+    border: 1px solid white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #594a0246,#594a026b,#ffdb00,#594a026b,#594a026b);
+    
+}
+
+th {
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+
+div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2mm;
+    margin-top: 2mm;
+    
+
+}
+
+div input {
+
+    width: 80mm;
+    margin-top: 2mm;
+}
+
+.button { 
+    background-image: radial-gradient(#ffe749,#f5d01b);
+    font-family: "Money";
+    text-align: center;
+    font-size: 9.5em;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgb(12, 10, 10);
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+    }
+
+.button:hover {
+    background-image: radial-gradient(#ffe749,#f5d0)
+}
+
+td, .tds {
+    background: #594B02;
+    border: 1px solid whitesmoke;
+    
+}
+
+p {
+    margin: 0px;
+}
+
+
+
+
+
