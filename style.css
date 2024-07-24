@@ -8,8 +8,7 @@
     src: url("Money Money Plus.woff") format("truetype");
 }
 body {
-    background-image: linear-gradient(to left, #f3f2ee,  #ececec);
-    
+    background-image: linear-gradient(to left, #ffffff,  #ffffff);   
 }
 
 h1 { 
@@ -19,9 +18,7 @@ font-size: 5em;
 font-weight: 100;
 text-shadow: 1px 1px 1px rgb(12, 10, 10);
 margin-bottom: 0px;
-
 }
-
 
 table {
 
@@ -50,7 +47,6 @@ th {
     font-weight: bold;
 }
 
-
 div {
 
     display: flex;
@@ -58,14 +54,16 @@ div {
     align-items: center;
     padding: 2mm;
     margin-top: 2mm;
-    
-
 }
 
 div input {
 
     width: 80mm;
     margin-top: 2mm;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+
 }
 
 .button { 
@@ -93,7 +91,7 @@ td, .tds {
 }
 
 p {
-    margin: 0px;
+    margin: 10px;
 }
 
 
