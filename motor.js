@@ -29,9 +29,9 @@ let valordabarra = (valorbarra,spread,quantidadedagrama) => {
 
 butao.addEventListener("click", function() {
 
-    vb.innerText = `R$ ${valordabarra(vg,sp,qg)}`
-    cs.innerText = `R$ ${(valordabarra(vg,sp,qg))*.02}`
-    tt.innerText = `${(frete(fr))+(valordabarra(vg,sp,qg))*1.02}`
+    vb.innerText = `R$ ${(valordabarra(vg,sp,qg)).toFixed(2)}`
+    cs.innerText = `R$ ${((valordabarra(vg,sp,qg))*.02).toFixed(2)}`
+    tt.innerText = `${((frete(fr))+(valordabarra(vg,sp,qg))*1.02).toFixed(2)}`
     console.log(fr.value)
     console.log(vg.value,vb)
     
