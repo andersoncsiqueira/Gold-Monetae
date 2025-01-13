@@ -68,3 +68,5 @@ buttonPrint.addEventListener('click', () => {
    setTimeout(()=>location.reload(),4000)
 
   });
+
+  console.log("Atualizei 15.02")
