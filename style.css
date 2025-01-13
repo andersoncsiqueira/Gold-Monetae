@@ -8,7 +8,8 @@
     src: url("Money Money Plus.woff") format("truetype");
 }
 body {
-   background-image: url("/padlock.png")
+   background-image: url("/padlock.png");
+   background-repeat: no-repeat;
     
 }
 
