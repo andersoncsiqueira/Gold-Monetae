@@ -11,32 +11,46 @@
 
     </style>
 </head>
-<body onclick>
+<body>
 
-        <header>
-           <h1>Ouro</h1>
-        </header>
-        
+      
     <section>
+     
+     
         
       <div id="print" class="print">
-        <label class="titulo"> Valor da grama</label><input type="number" id="VG">
-        <label class="titulo">Spread %</label> <input type="number" id="SP">
-        <label class="titulo"> Quantidade de gramas</label><input type="number" id="QG">
-        <p class="titulo"> Valor da barra<p type="number" id="VB"></p>
-        <p class="titulo"> Custo do seguro<p id="CS"></p>
-        <label> Frete</label><input type="number" id="FR">
-        <p> Total<p id="TT"></p>
 
-         <button id="BT">Calcular</button>
-   
+        
+          <h1>Cotação do Ouro</h1>
+        
+         <div class="enters">
 
+        <label class="titulo" for="valor da grama"> Valor da grama</label><input type="number" id="VG" name="valor da grama">
+        <label class="titulo" for="spread">Spread %</label> <input type="number" id="SP" name="spread">
+        <label class="titulo" for="quantidade de gramas"> Quantidade de gramas</label><input type="number" id="QG" name="quantidade de gramas">
+        <label> Custo do frete</label><input type="number" id="FR">
+        
+          
+        <p  class="showitemoff"> Valor da Grama: <span id="valorgramafi"></span></p>
+        <p  class="showitemoff"> Valor do Frete + Seguro: R$ <span id="valorfinalfrete"></span></p>
+        <p  class="showitemoff">Valor Final: <span id="total"> </span></p>
+         <button class="bt">Calcular</button>
+        <div class=" showitemoff buttons">
+          
+        <button class="showitemoff buttonnsfim" id="buttonPrint"> Enviar</button><button class="showitemoff buttonnsfim" id="retray"> Refazer</button>
+        </div> 
+         
+        </div>
+         
       </div>    
 
     </section>
    
 
-    <script src="motor.js"></script>
+    <script type="module" src="api.js" type="module"></script>
+    <script type="module" src="app.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
     <footer>
        
      
