@@ -51,6 +51,11 @@ buttonRetry.addEventListener("click", () => {
 
 
 buttonPrint.addEventListener('click', () => {
+
+    Array.from(document.querySelectorAll(".buttonnsfim")).forEach(b => b.classList.toggle("showitemoff"))
+    
+    //setTimeout(()=> console.log("Aguarde 5 segundos"),5000)
+
     const element = document.getElementById('print');
     html2canvas(element).then((canvas) => {
       // Baixar a imagem
@@ -59,4 +64,7 @@ buttonPrint.addEventListener('click', () => {
       link.href = canvas.toDataURL('image/png');
       link.click();
     });
+
+   setTimeout(()=>location.reload(),4000)
+
   });
