@@ -1,12 +1,5 @@
 @charset "UTF-8";
-@font-face {
-    font-family: "Money";
-    src: url("Money money money.ttf") format("truetype"); 
-}
-@font-face {
-    font-family: "Money Plus";
-    src: url("Money Money Plus.woff") format("truetype");
-}
+
 body {
    background-image: url("/Img/backgold.png");
    background-repeat: no-repeat;
