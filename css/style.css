@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-   background-image: url("/Img/backgold.png");
+   background-image: url("../Img/backgold.png");
    background-repeat: no-repeat;
     
 }
@@ -16,7 +16,7 @@ body {
 
 
 .print {
-    background-image:  url("/Img/backgold-fordiv.png");
+    background-image:  url("../Img/backgold.png");
     background-size: cover;
     background-position: center;
     border: 1px solid #000000;
