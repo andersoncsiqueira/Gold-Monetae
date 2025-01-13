@@ -3,6 +3,7 @@ const urlBr = "https://economia.awesomeapi.com.br/last/USD-BRL"
 const inputPrice = document.querySelector("#VG")
 
 
+console.log()
 
 const gold = async (url, urlLastUp) => {
    const  response = await fetch(url)
